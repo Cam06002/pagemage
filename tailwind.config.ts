@@ -8,10 +8,9 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      fontFamily: {
+        Della_Respira: ["Della Respira", "serif"]
+      }
     },
   },
   plugins: [],
