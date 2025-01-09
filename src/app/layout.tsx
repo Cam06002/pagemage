@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Della_Respira } from "next/font/google";
 import "./globals.css";
 
+import Header from "./components/header/header";
+
 const della = Della_Respira({
   subsets: ['latin'],
   display: 'swap',
@@ -22,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={della.className}
       >
+        <Header/>
         {children}
       </body>
     </html>
