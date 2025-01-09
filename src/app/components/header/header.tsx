@@ -3,12 +3,11 @@ import SearchBar from "../search-bar/search-bar";
 import LoginAvatar from "./login-avatar";
 
 export default function Header(){
-  // Header needs to hold the logo, a search bar, and an account / user avatar.
   return(
-    <nav>
+    <header>
       <HeaderLogo />
       <SearchBar />
       <LoginAvatar />
-    </nav>
+    </header>
   )
 }
