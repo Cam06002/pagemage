@@ -4,7 +4,7 @@ import LoginAvatar from "./login-avatar";
 
 export default function Header(){
   return(
-    <header>
+    <header className="flex flex-row justify-between p-2">
       <HeaderLogo />
       <SearchBar />
       <LoginAvatar />
