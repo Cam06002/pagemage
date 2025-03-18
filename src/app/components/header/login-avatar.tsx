@@ -18,7 +18,7 @@ export default function LoginAvatar(){
       <button
         onClick={()=>onAvatarClick()}
       >
-        {isLoggedIn ? <FaBookReader/> : <RxAvatar/>}
+        <p className="text-4xl text-[#5FFF5F]">{isLoggedIn ? <FaBookReader/> : <RxAvatar/>}</p>
       </button>
     </div>
   )
