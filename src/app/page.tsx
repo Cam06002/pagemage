@@ -10,8 +10,9 @@ export default function Home() {
           alt="A woman reading a book"
           className="h-80 w-auto invert scale-x-[-1]"
         />
-        <h1 className="text-5xl">There's Magic to Discover</h1>
+        <h1 className="text-5xl underline decoration-[0.5px] underline-offset-[12px]">There's Magic to Discover</h1>
       </div>
+      {/*add signup button here*/}
     </main>
   );
 }
