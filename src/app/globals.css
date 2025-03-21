@@ -6,3 +6,7 @@ body {
   background-color: #1e1e1e;
   color: white;
 }
+
+input:focus{
+  outline: #5FFF5F;
+}
