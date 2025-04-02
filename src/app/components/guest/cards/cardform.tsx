@@ -1,7 +1,6 @@
-import Image from "next/image"
-
 export default function CardForm(
-  title:string, images:Array<any>, descript:string, buttonTitle: string
+  {title, images, descript, buttonTitle}:
+  {title:string, images:Array<any>, descript:string, buttonTitle: string}
 ){
   return(
     <div>
