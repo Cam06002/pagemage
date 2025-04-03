@@ -2,6 +2,7 @@ import Image from "next/image";
 import Reader from "../../public/reading.svg";
 import Signup from "./components/signup/signup";
 import ActionCards from "./components/guest/cards/action-cards";
+import AuthorCard from "./components/guest/cards/author-cards";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <h1 className="text-5xl underline decoration-[0.5px] underline-offset-[12px]">There's Magic to Discover</h1>
         <Signup />
         <ActionCards />
+        <AuthorCard />
       </div>
     </main>
   );
