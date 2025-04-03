@@ -18,6 +18,7 @@ export default function ActionCards(){
       height={113}
       width={75}
       alt="Cover of 'In Cold Blood'"
+      className="mx-2"
     />,<Image
     src={Stories}
     height={113}
@@ -27,12 +28,30 @@ export default function ActionCards(){
   ];
 
   return(
-    <div>
+    <div className="flex flex-row justify-center">
       <CardForm
         title={"Explore"}
         images={images}
         descript={"Find Your Next Great Read!"}
         buttonTitle={"Search"}
+      />
+      <CardForm
+        title={"Review"}
+        images={images}
+        descript={"Rate and Review Your Reads!"}
+        buttonTitle={"Top Reviews"}
+      />
+      <CardForm
+        title={"Track"}
+        images={images}
+        descript={"Track and Manage Your Reading Activity With Logs and Lists!"}
+        buttonTitle={"Top Lists"}
+      />
+      <CardForm
+        title={"Discuss"}
+        images={images}
+        descript={"Share and Discuss Your Favorite Books and Authors!"}
+        buttonTitle={"Top Discussions"}
       />
     </div>
   )
